@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* index */
+
+.menu {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.ulMenu {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.liMenu {
+    list-style: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.liMenu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.liMenu:hover {
+    background-color: yellow;
+}
+
+
+.mainSet {
+    width: 100%;
+    height:100vh;
+    background-image: url(./images/fondocss.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.divMain {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.h1Title {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(225, 238, 109);
+    text-align: right;
+}
+.h2Title {
+    font: bold 20px , sans-serif;
+    color: rgb(225, 238, 109);
+}
+
+
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSection {
+    width: 50%;
+}
+
+.divSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    background-color: black;
+    border: 8px solid wheat;
+}
+
+.footer{
+    background-color: gray;
+    height: 50px;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/*servicios*/
+
+.sectionServicios {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionServicios div {
+    color: white;
+    text-align: center;
+}
+
+
+
+/*galeria*/
+
+.sectionGaleria {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* contactos*/
+
+.divForm {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.formContacto {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkslateblue;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: max-content;
+    max-height: 100px;
+}
+
+.btnForm {
+    width: 20%;
+    height: 50px;
+    border-radius: 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainAbout {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* acerca de */
+
+.divAbout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+
+
